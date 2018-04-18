@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "com.unity.ads": "exclude",
+    "com.unity.purchasing": "exclude",
+    "com.unity.analytics": "exclude",
+    "com.unity.package-manager-ui": "1.7.2",
+    "com.unity.cinemachine": "2.1.12"
+  },
+  "registry": "https://staging-packages.unity.com"
+}
