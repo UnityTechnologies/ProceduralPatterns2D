@@ -25,7 +25,7 @@ public class PerlinNoiseCave : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-        if(Input.GetMouseButtonDown(0))
+        if(Input.GetKeyDown(KeyCode.N))
         {
             mapArray = MapFunctions.GenerateArray(Width, Height, true);
             mapArray = MapFunctions.PerlinNoiseCave(mapArray, modifier, edgesAreWalls);

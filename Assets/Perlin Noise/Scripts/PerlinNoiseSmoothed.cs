@@ -26,7 +26,7 @@ public class PerlinNoiseSmoothed : MonoBehaviour
 	
 	void Update()
 	{
-		if (Input.GetMouseButtonDown(0))
+		if (Input.GetKeyDown(KeyCode.N))
 		{
 			Tilemap.ClearAllTiles();
 			if(randomSeed)

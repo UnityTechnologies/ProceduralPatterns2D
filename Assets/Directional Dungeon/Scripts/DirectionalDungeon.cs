@@ -36,7 +36,7 @@ public class DirectionalDungeon : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0)) //Generate a new map on button click
+        if (Input.GetKeyDown(KeyCode.N)) //Generate a new map on button click
         {
             MapArray = MapFunctions.GenerateArray(Width, Height, false); //Create our map
             MapArray = MapFunctions.DirectionalTunnel(MapArray, MinPathWidth, MaxPathWidth, MaxPathChange, Roughness, Windyness); //Produce a tunnel

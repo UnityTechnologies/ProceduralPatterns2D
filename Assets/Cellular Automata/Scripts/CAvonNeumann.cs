@@ -13,7 +13,7 @@ using UnityEngine.Tilemaps;
  *   
  */
 
-public class CellularAutomataModified : MonoBehaviour
+public class CAvonNeumann : MonoBehaviour
 {
     [Tooltip("The tile we want to draw. (For the best result use a rule tile)")]
     public TileBase Tile; 
@@ -44,7 +44,7 @@ public class CellularAutomataModified : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetKeyDown(KeyCode.N))
         {
             if(RandomSeed)
             {
