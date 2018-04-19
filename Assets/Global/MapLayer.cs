@@ -93,5 +93,6 @@ public class MapLayer_Editor : Editor
                 mapLayer.roughness = EditorGUILayout.IntSlider("Roughness", mapLayer.roughness, 0, 100);
                 break;
         }
+		AssetDatabase.SaveAssets();
     }
 }

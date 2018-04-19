@@ -11,16 +11,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72922ab41e7dd4348a6bed1e9720b1d1, type: 3}
   m_Name: Bottom Layer
   m_EditorClassIdentifier: 
-  algorithm: 4
+  algorithm: 7
   randomSeed: 1
   seed: 
   fillAmount: 77
   smoothAmount: 2
   clearAmount: 22
-  interval: 0
+  interval: 1
   minPathWidth: 1
   maxPathWidth: 5
   maxPathChange: 4
   roughness: 45
   windyness: 39
   edgesAreWalls: 1
+  modifier: 0.127
