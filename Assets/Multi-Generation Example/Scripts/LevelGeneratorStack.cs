@@ -1,13 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor;
 using UnityEngine.Tilemaps;
 
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 public class LevelGeneratorStack : MonoBehaviour
 {
-
 	public Tilemap tilemap;
 	public TileBase tile;
 

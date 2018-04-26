@@ -9,7 +9,7 @@ All the main functions are within the script [MapFunctions.cs](https://github.co
 
 ### How to get started:
 
-Within this project, there are scenes showing examples of the following algorithms:
+Within this project there are scenes showing examples of the following algorithms:
 1. [Perlin Noise](https://github.com/UnityTechnologies/ProceduralPatterns2D/tree/master/Assets/Generation%20Examples/Perlin%20Noise)
 	1. Basic Generation (for top layer)
 	2. Smoothed Generation (for top layer)
@@ -25,12 +25,12 @@ Within this project, there are scenes showing examples of the following algorith
 4. [Directional Dungeon](https://github.com/UnityTechnologies/ProceduralPatterns2D/tree/master/Assets/Generation%20Examples/Directional%20Tunnel)
 
 There is also an example of using multiple types of generation for one tilemap. 
-This can be seen in the Multi-Generation Example subfolder
+This can be seen in the Multi-Generation Example subfolder.
 
 ### Layout of each scene
 
-Within each scene there will be an object named LevelGenerator. This object holds the LevelGenerator.cs Script, the exception to this rule is the multi-generation example scene. 
-The object named LevelGenerator in this scene holds a customised version of the LevelGenerator.cs script which allows for multiple types of Map Settings
+Within each scene there will be an object named LevelGenerator. This object holds the [LevelGenerator.cs](https://github.com/UnityTechnologies/ProceduralPatterns2D/blob/master/Assets/Global%20Scripts/LevelGenerator.cs) Script, the exception to this rule is the multi-generation example scene. 
+The object named LevelGenerator in this scene holds a customised version of the [LevelGenerator.cs](https://github.com/UnityTechnologies/ProceduralPatterns2D/blob/master/Assets/Multi-Generation%20Example/Scripts/LevelGeneratorStack.cs) script which allows for multiple types of Map Settings
 
 ![LevelGenerator](https://i.imgur.com/tGOCyZu.png)
 
@@ -40,7 +40,9 @@ On this game object, you can generate and clear the level in edit mode using the
 
 To create a new map setting object, you need to right click in the project view then go Create->Map Settings.
 ![ProjectView](https://i.imgur.com/3mnSX93.png)
+
 *or*
+
 You can got to Assets->Create->Map Settings from the toolbar
 ![Toolbar](https://i.imgur.com/DshzBGv.png)
 
