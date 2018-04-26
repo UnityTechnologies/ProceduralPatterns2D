@@ -140,6 +140,52 @@ Transform:
   m_Children:
   - {fileID: 588800862}
   - {fileID: 504995684}
+  - {fileID: 1189428458}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &227089674
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 227089676}
+  - component: {fileID: 227089675}
+  m_Layer: 0
+  m_Name: LevelGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &227089675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 227089674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22e19792c9ed7bc41a559baae0c2df81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tilemap: {fileID: 1012503966}
+  tile: {fileID: 11400000, guid: f8c3a5e915d954d439b1952114db9d2c, type: 2}
+  width: 60
+  height: 40
+  mapSetting: {fileID: 11400000, guid: 76d5cf82840c69a478c136c3d6772b07, type: 2}
+--- !u!4 &227089676
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 227089674}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9571,9 +9617,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1189428458}
   - component: {fileID: 1189428457}
-  - component: {fileID: 1189428460}
   m_Layer: 0
-  m_Name: LevelGenerator
+  m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9596,27 +9641,11 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1189428456}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1012503963}
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_Father: {fileID: 143558608}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1189428460
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1189428456}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22e19792c9ed7bc41a559baae0c2df81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tilemap: {fileID: 1012503966}
-  tile: {fileID: 11400000, guid: f8c3a5e915d954d439b1952114db9d2c, type: 2}
-  width: 60
-  height: 40
-  mapSetting: {fileID: 11400000, guid: 76d5cf82840c69a478c136c3d6772b07, type: 2}
