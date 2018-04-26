@@ -5,15 +5,43 @@
 ## Description
 
 This project shows a number of different patterns to use with Tilemaps to create custom maps. 
-All the main functions are within the script [MapFunctions.cs](https://github.com/UnityTechnologies/ProceduralPatterns2D/blob/master/Assets/Global/MapFunctions.cs).
+All the main functions are within the script [MapFunctions.cs](https://github.com/UnityTechnol
 
-Within the project are individual scenes which show off the different functions.
+### How to get started:
 
-Also included in this project is an implementation of the MapFunctions.cs script that allows for a scriptable object called MapLayer to exist, which can be seen in [MapLayer.cs](https://github.com/UnityTechnologies/ProceduralPatterns2D/blob/master/Assets/Global/MapLayer.cs).
-This scriptable object can be used to determine which algorithm each layer of your level uses.
+Within this project, there are scenes showing examples of the following algorithms:
+1. Perlin Noise
+	1. Basic Generation (for top layer)
+	2. Smoothed Generation (for top layer)
+	3. Cave Generation
+2. Random Walk
+	1. Basic Generation (for top layer)
+	2. Smoothed Generation (for top layer)
+	3. Cave Generation (4 directional movement)
+	4. Custom Cave Generation (8 directional movement)
+3. Cellular Automata
+	1. von Neumann Neighbourhood
+	2. Moore Neighbourhood
+4. Directional Dungeon
 
-To see an implementation that uses the MapLayer scriptable object, see the script [LevelGenerator.cs](https://github.com/UnityTechnologies/ProceduralPatterns2D/blob/master/Assets/Global/LevelGenerator.cs).
+There is also an example of using multiple types of generation for one tilemap. 
+This can be seen in the Multi-Generation Example subfolder
 
+### How to create Map Settings
+
+To create a new map setting object, you need to right click in the project view then go Create->Map Settings.
+![ProjectView](https://i.imgur.com/3mnSX93.png)
+*or*
+You can got to Assets->Create->Map Settings from the toolbar
+![Toolbar](https://i.imgur.com/DshzBGv.png)
+
+### Layout of each scene
+
+Within each scene there will be an object named LevelGenerator. This object holds the LevelGenerator.cs Script, the exception to this rule is the multi-generation example scene. 
+The object named LevelGenerator in this scene holds a customised version of the LevelGenerator.cs script which allows for multiple types of Map Settings
+
+![LevelGenerator](https://i.imgur.com/tGOCyZu.png)
+On this game object, you can generate and clear the level in edit mode using the buttons provided
 
 **Software Requirements**
 

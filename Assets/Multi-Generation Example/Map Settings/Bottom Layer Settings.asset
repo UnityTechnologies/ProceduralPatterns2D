@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72922ab41e7dd4348a6bed1e9720b1d1, type: 3}
+  m_Name: Bottom Layer Settings
+  m_EditorClassIdentifier: 
+  algorithm: 7
+  randomSeed: 1
+  seed: 0
+  fillAmount: 46
+  smoothAmount: 2
+  clearAmount: 22
+  interval: 1
+  minPathWidth: 1
+  maxPathWidth: 5
+  maxPathChange: 4
+  roughness: 45
+  windyness: 39
+  edgesAreWalls: 1
+  modifier: 0.127
