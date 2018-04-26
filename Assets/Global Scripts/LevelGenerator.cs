@@ -36,7 +36,7 @@ public class LevelGenerator : MonoBehaviour {
 	}
 
 	[ExecuteInEditMode]
-	public virtual void GenerateMap()
+	public void GenerateMap()
 	{
 		ClearMap();
 		int[,] map = new int[width, height];
