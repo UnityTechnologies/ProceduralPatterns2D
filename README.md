@@ -5,7 +5,7 @@
 ## Description
 
 This project shows a number of different patterns to use with Tilemaps to create custom maps. 
-All the main functions are within the script [MapFunctions.cs](https://github.com/UnityTechnol
+All the main functions are within the script [MapFunctions.cs](https://github.com/UnityTechnologies/ProceduralPatterns2D/blob/master/Assets/Global%20Scripts/MapFunctions.cs).
 
 ### How to get started:
 
