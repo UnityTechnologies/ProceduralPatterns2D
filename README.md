@@ -39,13 +39,14 @@ On this game object, you can generate and clear the level in edit mode using the
 ### How to create Map Settings
 
 To create a new map setting object, you need to right click in the project view then go Create->Map Settings.
+
 ![ProjectView](https://i.imgur.com/3mnSX93.png)
 
 *or*
 
 You can got to Assets->Create->Map Settings from the toolbar
-![Toolbar](https://i.imgur.com/DshzBGv.png)
 
+![Toolbar](https://i.imgur.com/DshzBGv.png)
 
 
 **Software Requirements**
