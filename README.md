@@ -48,6 +48,23 @@ You can got to Assets->Create->Map Settings from the toolbar
 
 ![Toolbar](https://i.imgur.com/DshzBGv.png)
 
+### How to call functions from MapFunctions.cs
+
+The good thing about the MapFunctions.cs script is that you can take it out of this project and put it into any other project.
+If you want to call functions from the script you would just need to do the following:
+
+```csharp
+int[,] map;
+map = MapFunctions.GenerateArray(width, height, empty);
+map = MapFunctions.PerlinNoise(map, seed); 
+MapFunctions.RenderMap(map, tilemap, tile);
+```
+
+What this code would do is:
+1. Create an int array for a map
+2. Generate the array into the map
+3. Generate perlin noise within the map
+4. Render the map to a tilemap
 
 **Software Requirements**
 
