@@ -20,12 +20,7 @@ public class LevelGenerator : MonoBehaviour {
 	
 	[Tooltip("The settings of our map")]
 	public MapSettings mapSetting;
-
-	void Start()
-	{
-		GenerateMap();
-	}
-
+	
 	private void Update()
 	{
 		if (Input.GetKeyDown(KeyCode.N))

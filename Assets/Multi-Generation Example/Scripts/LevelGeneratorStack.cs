@@ -21,12 +21,7 @@ public class LevelGeneratorStack : MonoBehaviour
     public List<MapSettings> mapSettings = new List<MapSettings>();
 
     List<int[,]> mapList = new List<int[,]>();
-
-    void Start()
-    {
-        GenerateMap();
-    }
-
+	
     private void Update()
     {
         if(Input.GetKeyDown(KeyCode.N))
